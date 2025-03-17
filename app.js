@@ -1,4 +1,4 @@
-// Lista de amigos para challenger
+// Lista de amigos
 let listaAmigos = [];
 
 /**
