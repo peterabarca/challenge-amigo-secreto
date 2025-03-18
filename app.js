@@ -2,9 +2,7 @@
 let listaAmigos = [];
 
 /**
- * Asigna texto a un elemento del DOM.
- * @param {string} elemento - Selector del elemento.
- * @param {string} texto - Texto por asignar.
+ * Incorpora texto a un elemento del DOM.
  */
 function asignarTextoElemento(elemento, texto) {
     const elementoHTML = document.querySelector(elemento);
@@ -14,7 +12,7 @@ function asignarTextoElemento(elemento, texto) {
 }
 
 /**
- * Agrega un amigo a la lista.
+ * Incorpora un amigo a la lista.
  */
 function agregarAmigo() {
     const nombre = document.getElementById('amigo').value.trim();
@@ -30,14 +28,14 @@ function agregarAmigo() {
 }
 
 /**
- * Limpia el campo de entrada.
+ * Limpia el campo.
  */
 function limpiarCaja() {
     document.querySelector('#amigo').value = '';
 }
 
 /**
- * Actualiza la lista de amigos en el DOM.
+ * Actualiza lista de amigos en el DOM.
  */
 function actualizarLista() {
     const ul = document.querySelector('#listaAmigos');
@@ -51,7 +49,7 @@ function actualizarLista() {
 }
 
 /**
- * Realiza el sorteo de un amigo secreto y muestra el resultado.
+ * Se efectua un sorteo de amigo secreto y muestra un resultado.
  */
 function sortearAmigo() {
     if (listaAmigos.length === 0) {
@@ -68,8 +66,7 @@ function sortearAmigo() {
 
 /**
  * Muestra el resultado del sorteo en el DOM.
- * @param {string} amigoGanador - Nombre del amigo sorteado.
- */
+  */
 function mostrarResultado(amigoGanador) {
     const ulResultado = document.querySelector('#resultado');
     ulResultado.innerHTML = '';
@@ -80,7 +77,7 @@ function mostrarResultado(amigoGanador) {
 }
 
 /**
- * Limpia la lista de amigos en el DOM y en la memoria.
+ * Limpia la lista 
  */
 function limpiarLista() {
     listaAmigos = [];
