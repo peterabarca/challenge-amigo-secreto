@@ -1,10 +1,10 @@
-// Lista de amigos
+// Lista de los amigos
 let listaAmigos = [];
 
 /**
  * Asigna texto a un elemento del DOM.
  * @param {string} elemento - Selector del elemento.
- * @param {string} texto - Texto a asignar.
+ * @param {string} texto - Texto por asignar.
  */
 function asignarTextoElemento(elemento, texto) {
     const elementoHTML = document.querySelector(elemento);
