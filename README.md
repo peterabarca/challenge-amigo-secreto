@@ -34,6 +34,7 @@ que permite a los usuarios jugar al amigo secreto
 ## Instalacion
 - Clona este repositorio en tu maquina local:
 git@github.com:peterabarca/challenge-amigo-secreto.git
+gh repo clone peterabarca/challenge-amigo-secreto
 
 ## Uso
 
